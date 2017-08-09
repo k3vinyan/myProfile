@@ -1,24 +1,6 @@
-.btn{
-  display: inline-block;
-  height: 58px;
-  padding: 0 22px;
-  border: 2px solid #66fcf1;
-  border-radius: 2px;
-  background: none;
-  font-size: 16px;
-  line-height: 54px;
-  color: #fff;
-  letter-spacing: .25em;
-  text-decoration: none;
-  font-weight: 600;
-  text-transform: uppercase;
-  vertical-align: middle;
-  text-align: center;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -webkit-transition: background .4s, color .4s;
-  transition: background .4s, color .4s;
+body {
+    margin: 0;
+    text-align: center;
 }
 .navbar {
   background-color: #FFFFFF;
@@ -34,6 +16,53 @@ a {
   padding-right: 50px;
 
 }
-.bottom {
-  text-align: center;
+.top-container {
+  display: flex;
+}
+.bottom-container {
+  display: flex;
+}
+.bracket {
+  font-size: 175px;
+}
+.white-font {
+  color: #FFFFFF;
+}
+.black-font {
+  color: #000000;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+.text-margin {
+ 
+}
+.top-left {
+  background-color: #FFFFFF;
+  position: relative;
+  width: 100vh;
+  height: 50vh;
+}
+.top-right {
+  background-color: #000000;
+  position: relative;
+  width: 100vh;
+  height: 50vh;
+}
+.bottom-left {
+  background-color: #000000;
+  position: relative;
+  width: 100vh;
+  height: 50vh;
+}
+.bottom-right {
+  background-color: #FFFFFF;
+  position: relative;
+  width: 100vh;
+  height: 50vh;
 }
